@@ -1,0 +1,52 @@
+.banner {
+  width: 100%;
+  height: 500px;
+  background-image: url("https://images.pexels.com/photos/3965545/pexels-photo-3965545.jpeg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 12px;
+  margin: 20px auto;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-content {
+  text-align: center;
+  color: white;
+  backdrop-filter: brightness(0.7);
+  padding: 40px;
+  border-radius: 10px;
+  
+}
+
+.banner-content h1 {
+  font-size: 42px;
+  font-weight: bold;
+  font-family: "Rammetto One", Sans-serif;
+}
+
+.banner-content p {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+.banner-btn {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  background: #bd8bd2;
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 6px;
+  font-size: 18px;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.banner-btn:hover {
+  background: #9e9e9e;
+}
