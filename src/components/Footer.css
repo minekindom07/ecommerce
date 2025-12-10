@@ -14,17 +14,19 @@
   max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   flex-wrap: wrap;
-  gap: 40px;
+  gap: 60px;              /* tighter or wider spacing */
   align-items: flex-start;
 }
 
+
 /* Column sizing */
 .footer-col {
-  flex: 1 1 220px;         /* allow columns to shrink but keep a reasonable base */
-  min-width: 180px;
+  flex: 0 0 220px;         /* fixed width → columns stay close */
+  max-width: 240px;        
 }
+
 
 /* Headings */
 .footer-col h4 {
